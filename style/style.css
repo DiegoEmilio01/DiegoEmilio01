@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+html body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+}
+
+html body header h1 {
+    margin: 20px;
+}
+
+html body main {
+    z-index: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto 0px;
+}
+
+html body main object {
+    height: 1500px;
+    width: 100%;
+}
