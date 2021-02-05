@@ -5,6 +5,7 @@ main a {
     border-radius: 20px;
     width: auto;
     overflow: hidden;
+    box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.18), 0px 12px 12px 0px rgba(0,0,0,0.15);
 }
 
 main a button {
@@ -18,7 +19,6 @@ main a button {
     height: 100%;
     padding: 0px 15px;
     border-radius: 20px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.18), 0 4px 4px 0 rgba(0,0,0,0.15);
 }
 
 main a:hover {
