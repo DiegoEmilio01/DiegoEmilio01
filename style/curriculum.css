@@ -1,0 +1,12 @@
+body main #curriculum {
+    min-height: 85vh;
+    width: 100%;
+    display: block;
+}
+
+body main object {
+    min-height: 100vh;
+    height: 1500px;
+    width: 100%;
+    display: none;
+}
