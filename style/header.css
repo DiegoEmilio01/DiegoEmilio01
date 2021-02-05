@@ -1,0 +1,29 @@
+html header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+header .headerInfo {
+    min-height: 8vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    width: 100%;
+    background-color: #042B5D;
+}
+
+.headerInfo a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.headerInfo h1 {
+    cursor: pointer;
+    margin: 15px;
+    line-height: 26.4px;
+}

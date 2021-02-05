@@ -1,0 +1,22 @@
+html footer {
+    min-height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #042B5D;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer a {
+    height: 28px;
+    margin: 6px 4px;
+    border-radius: 50%;
+    width: auto;
+    overflow: hidden;
+}
+
+footer a img {
+    object-fit: cover;
+    height: 100%;
+}

@@ -1,0 +1,26 @@
+main a {
+    text-decoration: none;
+    height: 45px;
+    margin: 6px 4px;
+    border-radius: 20px;
+    width: auto;
+    overflow: hidden;
+}
+
+main a button {
+    cursor: pointer;
+    font-size: 22px;
+    color: black;
+    background-color: #00AC7F;
+    border: 2px solid black;
+    opacity: 1;
+    object-fit: cover;
+    height: 100%;
+    padding: 0px 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.18), 0 4px 4px 0 rgba(0,0,0,0.15);
+}
+
+main a:hover {
+    opacity: 0.8;
+}
