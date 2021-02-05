@@ -24,6 +24,6 @@ header .headerInfo {
 
 .headerInfo h1 {
     cursor: pointer;
-    margin: 15px;
+    margin: 8px;
     line-height: 26.4px;
 }
