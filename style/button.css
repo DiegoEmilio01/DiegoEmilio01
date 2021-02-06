@@ -1,26 +1,45 @@
-main a {
+main #menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    margin: 8px;
+}
+
+main #menu a {
     text-decoration: none;
-    height: 45px;
+    height: fit-content;
     margin: 6px 4px;
-    border-radius: 20px;
-    width: auto;
+    border-radius: 12px;
+    width: 100%;
     overflow: hidden;
     box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.18), 0px 12px 12px 0px rgba(0,0,0,0.15);
 }
 
-main a button {
+main #menu a button {
     cursor: pointer;
     font-size: 22px;
     color: black;
-    background-color: #00AC7F;
+    background-color: #00D69E;
     border: 2px solid black;
     opacity: 1;
     object-fit: cover;
     height: 100%;
+    width: 100%;
     padding: 0px 15px;
-    border-radius: 20px;
+    border-radius: 12px;
 }
 
-main a:hover {
+main #menu a:hover {
     opacity: 0.8;
+}
+
+#menu a button h4, #menu a button p {
+    text-align: left;
+    margin: 5px 0px;
+}
+
+#menu a button p {
+    display: none;
 }

@@ -14,4 +14,8 @@
     body main object {
         display: block;
     }
+
+    #menu a button p {
+        display: block;
+    }
 }
