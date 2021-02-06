@@ -10,11 +10,18 @@ main #menu {
 main #menu a {
     text-decoration: none;
     height: fit-content;
-    margin: 6px 4px;
+    margin: 5px;
     border-radius: 12px;
     width: 100%;
     overflow: hidden;
     box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.18), 0px 12px 12px 0px rgba(0,0,0,0.15);
+    transition: ease 700ms all;
+}
+
+main #menu a:hover {
+    opacity: 0.8;
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 main #menu a button {
@@ -29,10 +36,6 @@ main #menu a button {
     width: 100%;
     padding: 0px 15px;
     border-radius: 12px;
-}
-
-main #menu a:hover {
-    opacity: 0.8;
 }
 
 #menu a button h4, #menu a button p {
