@@ -22,8 +22,8 @@ header .headerInfo {
     text-decoration: none;
 }
 
-.headerInfo h1 {
+.headerInfo a h1 {
     cursor: pointer;
-    margin: 8px;
-    line-height: 26.4px;
+    margin: 5px;
+    font-size: 25px;
 }
