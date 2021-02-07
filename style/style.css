@@ -6,6 +6,29 @@
 @import './reviews.css';
 
 
+@media screen and (min-width: 480px) {
+    .headerInfo a h1 {
+        margin: 8px;
+        font-size: 28px;
+    }
+
+    #menu a button h4 {
+        font-size: x-large;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .headerInfo a h1 {
+        margin: 10px;
+        font-size: 32px;
+    }
+
+    #menu a button h4, #menu a button p {
+        font-size: large;
+        display: block;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     body main #curriculum {
         display: none;
@@ -13,5 +36,14 @@
     
     body main object {
         display: block;
+    }
+
+    .headerInfo a h1 {
+        margin: 15px;
+        font-size: 40px;
+    }
+
+    #menu a button h4, #menu a button p {
+        font-size: x-large;
     }
 }
