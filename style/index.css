@@ -16,10 +16,6 @@ html body {
     width: 100%;
 }
 
-html body header h1 {
-    margin: 20px;
-}
-
 html body main {
     z-index: 0;
     position: relative;
@@ -27,7 +23,7 @@ html body main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 80vh;
+    min-height: 76vh;
     margin: auto 0px;
     box-sizing: content-box;
     /*background-color: #89FFE0, 29FFC7, 00D69E;*/ 
