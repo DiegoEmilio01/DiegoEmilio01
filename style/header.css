@@ -9,7 +9,6 @@ html header {
 }
 
 header .headerInfo {
-    min-height: 8vh;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr;
@@ -24,6 +23,6 @@ header .headerInfo {
 
 .headerInfo a h1 {
     cursor: pointer;
-    margin: 5px;
-    font-size: 25px;
+    margin: 2vh;
+    font-size: 5.5vh;
 }

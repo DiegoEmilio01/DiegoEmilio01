@@ -1,5 +1,4 @@
 html footer {
-    min-height: 6vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,8 +8,8 @@ html footer {
 }
 
 footer a {
-    height: 28px;
-    margin: 6px 4px;
+    height: 5vh;
+    margin: 1.5vh;
     border-radius: 50%;
     width: auto;
     overflow: hidden;
