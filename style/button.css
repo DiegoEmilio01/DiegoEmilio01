@@ -4,7 +4,7 @@ main #menu {
     grid-gap: 20px;
     align-items: center;
     justify-items: center;
-    margin: 8px;
+    margin: 18px 8px;
 }
 
 main #menu a {
@@ -41,6 +41,7 @@ main #menu a button {
 #menu a button h4, #menu a button p {
     text-align: left;
     margin: 5px 0px;
+    font-size: large;
 }
 
 #menu a button p {
