@@ -8,18 +8,24 @@
 
 
 @media screen and (min-width: 480px) {
+    .headerInfo a h1 {
+        font-size: 5.5vh;
+    }
+
+    html body main, body main #paper {
+        min-height: 75vh;
+    }
+
     #menu a button h4 {
         font-size: x-large;
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 720px) {
     html body main, body main #paper {
         min-height: 81.5vh;
     }
-}
 
-@media screen and (min-width: 720px) {
     #menu a button h4, #menu a button p {
         font-size: large;
         display: block;
