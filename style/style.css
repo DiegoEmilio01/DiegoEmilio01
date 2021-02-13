@@ -16,7 +16,7 @@
         min-height: 75vh;
     }
 
-    #menu a button h4 {
+    #menu a button h2 {
         font-size: x-large;
     }
 }
@@ -26,7 +26,7 @@
         min-height: 81.5vh;
     }
 
-    #menu a button h4, #menu a button p {
+    #menu a button h2, #menu a button p {
         font-size: large;
         display: block;
     }
@@ -42,7 +42,7 @@
         display: block;
     }
 
-    #menu a button h4, #menu a button p {
+    #menu a button h2, #menu a button p {
         font-size: x-large;
     }
 }
