@@ -11,10 +11,14 @@
         <link media="screen" rel="stylesheet preload" as="style" href="style/queries.css">
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1DSGXH6QJQ"></script><!-- Google Analytics -->
         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-1DSGXH6QJQ');
+            try {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-1DSGXH6QJQ');
+            } catch (error) {
+                console.log('Error: Google Analytics requests failed');
+            }
         </script>
         <title>Diego Bustamante</title>
         <meta name="description" content="Página personal de Diego Emilio Bustamante Henríquez. En ella encontrarás links directos a trabajos, estudios, investigaciones e intereses de Diego." />
