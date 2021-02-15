@@ -29,12 +29,12 @@ main #menu a button {
     font-size: 22px;
     color: black;
     background-color: #00D69E;
-    border: 2px solid black;
+    border: none;
     opacity: 1;
     object-fit: cover;
     height: 100%;
     width: 100%;
-    padding: 0px 15px;
+    padding: 10px 30px;
     border-radius: 12px;
 }
 
