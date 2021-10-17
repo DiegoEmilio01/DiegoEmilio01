@@ -1,12 +1,12 @@
 body main #curriculum {
-    min-height: 85vh;
+    min-height: 72.5vh;
     width: 100%;
     display: block;
 }
 
 body main object {
     min-height: 100vh;
-    height: 1500px;
+    height: 1470px;
     width: 100%;
     display: none;
 }

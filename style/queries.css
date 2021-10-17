@@ -6,14 +6,15 @@
 @import './header.css';
 @import './footer.css';*/
 
+@media screen and (min-width: 403px) {
+    body main #curriculum, body main #paper {
+        min-height: 78vh;
+    }
+}
 
 @media screen and (min-width: 480px) {
     .headerInfo a h1 {
         font-size: 5.5vh;
-    }
-
-    html body main, body main #paper {
-        min-height: 75vh;
     }
 
     #menu a button h2 {
@@ -22,8 +23,8 @@
 }
 
 @media screen and (min-width: 720px) {
-    html body main, body main #paper {
-        min-height: 81.5vh;
+    body main #curriculum, body main #paper {
+        min-height: 81.7vh;
     }
 
     #menu a button h2, #menu a button p {
