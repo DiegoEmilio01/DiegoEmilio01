@@ -23,7 +23,7 @@ html body main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 77.5vh;
+    min-height: 72vh;
     margin: auto 0px;
     box-sizing: content-box;
     /*background-color: #89FFE0, 29FFC7, 00D69E;*/ 
