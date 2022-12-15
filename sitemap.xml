@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://diegoemilio.com/</loc>
+    <lastmod>2022-12-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://diegoemilio.cl/v/curriculum/index.html</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://diegoemilio.cl/v/paper/index.html</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://diegoemilio.cl/v/reviews/index.html</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+</urlset>
