@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 403px) {
     body main #curriculum, body main #paper {
-        min-height: 78vh;
+        min-height: 75vh;
     }
 }
 
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 720px) {
     body main #curriculum, body main #paper {
-        min-height: 81.7vh;
+        min-height: 77.0vh;
     }
 
     #menu a button h2, #menu a button p {
